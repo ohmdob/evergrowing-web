@@ -21,7 +21,7 @@ export function Child0to15() {
   }
   
   return (<Stack p={4}>
-            <Heading as="h4" fontSize={`2xl`} textAlign={`center`} whiteSpace="pre-wrap">แบบบันทึกการเผ้าระวังและส่งเสริมพัฒนาการเด็กปฐมวัย (DSPM) ตามช่วงอายุ แรกเกิด - 15 เดือน</Heading>
+            <Heading as="h4" fontSize={`2xl`} textAlign={`center`} whiteSpace="pre-wrap">แบบบันทึกการเฝ้าระวังและส่งเสริมพัฒนาการเด็กปฐมวัย (DSPM) ตามช่วงอายุ แรกเกิด - 15 เดือน</Heading>
             <Formik
             isValidating={false}
             validationSchema={validationSchema}

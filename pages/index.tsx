@@ -21,7 +21,7 @@ const Home: NextPage = () => {
     <Container px={16}>
       <SimpleGrid spacing={8}>
         <Box p={8} bgColor={`#85F4CC`} rounded={`xl`} _hover={{ shadow: `xl`, textDecoration: 'none'}} as={Link} href={`/forms`}>
-          <Text>แบบบันทึกการเผ้าระวังและส่งเสริมพัฒนาการเด็กปฐมวัย (DSPM) ตามช่วงอายุ แรกเกิด - 15 เดือน</Text>
+          <Text>แบบบันทึกการเฝ้าระวังและส่งเสริมพัฒนาการเด็กปฐมวัย (DSPM) ตามช่วงอายุ แรกเกิด - 15 เดือน</Text>
         </Box>
         <Box p={8} bgColor={`#AB8FE9`} rounded={`xl`} _hover={{ shadow: `xl`, textDecoration: 'none'}} >
           <Text>แบบบันทึกการเผ้าระวังและส่งเสริมพัฒนาการเด็กปฐมวัย (DSPM) ตามช่วงอายุ 16 - 60 เดือน</Text>
