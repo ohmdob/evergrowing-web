@@ -53,8 +53,9 @@ export const Navbar: FunctionComponent<NavbarProps> = ({ logo='/logo.png', bgGra
               aria-label={'Toggle Navigation'}
             />
           </Flex>
-          <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
+          <Flex flex={{ base: 1 }}  justify={{ base: 'center', md: 'start' }} align="center">
             <Box as={Link} href={`/`}><Image objectFit={`contain`} h={12} src={logo} alt="logo" /></Box>
+            <Text color={`white`} p={2} fontWeight={700}>Ever Growing</Text>
           </Flex>
   
           <Stack pl={1}
