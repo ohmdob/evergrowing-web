@@ -76,10 +76,10 @@ export function Child0to15() {
           <option value='form1'>แรกเกิด-1 เดือน</option>
           <option value='form2'>1-2 เดือน</option>
           <option value='form3'>3-4 เดือน</option>
-          <option value='form2'>5-6 เดือน</option>
-          <option value='form3'>7-9 เดือน</option>
-          <option value='form2'>10-12 เดือน</option>
-          <option value='form3'>13-15 เดือน</option>
+          <option value='form4'>5-6 เดือน</option>
+          <option value='form5'>7-9 เดือน</option>
+          <option value='form6'>10-12 เดือน</option>
+          <option value='form7'>13-15 เดือน</option>
         </Select>
     
         <SimpleGrid  py={4} columns={1}>

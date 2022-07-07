@@ -1,4 +1,4 @@
-import { Box, Container, Link, SimpleGrid, Text } from '@chakra-ui/react'
+import { Box, Container, Heading, Link, SimpleGrid, Text } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 import { SEO, Navbar, Footer, Child0to15 } from '../../components'
 
