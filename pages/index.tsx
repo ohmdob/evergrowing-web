@@ -1,20 +1,23 @@
 import { Box, Container, Heading, Link, SimpleGrid, Text } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 import { SEO, Navbar, Footer } from '../components'
+import { FadeBox } from '../components/FadeBox'
 
 const Home: NextPage = () => {
   return (<Box bgColor={`#fefefe`} overflowX={`hidden`}>
     <SEO title="Home" />
     <Navbar />
-    <Box p={8}>
-      <Heading as="h1" fontWeight={600} fontSize={{ base: `xl`, md: `2xl`}}
-        bg='linear-gradient(101.1deg, #674EB0 34%, #4FD1C5 71.87%)'
-        bgClip='text'
-      >
-        “It is easier to build strong children than to repair broken adults”
-      </Heading>
-      <Text color={`gray.500`}>- Frederick Douglass</Text>
-    </Box>
+    <FadeBox>
+      <Box p={8}>
+        <Heading as="h1" fontWeight={600} fontSize={{ base: `xl`, md: `3xl`}}
+          bg='linear-gradient(101.1deg, #674EB0 34%, #4FD1C5 71.87%)'
+          bgClip='text'
+        >
+          “It is easier to build strong children than to repair broken adults”
+        </Heading>
+        <Text color={`gray.500`}>- Frederick Douglass</Text>
+      </Box>
+    </FadeBox>
     <Container px={16}>
       <SimpleGrid spacing={8}>
         <Box p={8} bgColor={`#85F4CC`} rounded={`xl`} _hover={{ shadow: `xl`, textDecoration: 'none'}} as={Link} href={`/forms`}>
